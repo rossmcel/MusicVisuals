@@ -15,7 +15,7 @@ public class MyVisual extends Visual {
     Pulse ps;
 
     public void settings() {
-        size(1024, 500, processing.core.PConstants.P3D);
+        size(2048, 800, processing.core.PConstants.P3D);
 
         // Use this to make fullscreen
         fullScreen();
