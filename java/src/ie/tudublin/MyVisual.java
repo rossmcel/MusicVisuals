@@ -12,6 +12,7 @@ public class MyVisual extends Visual {
     AliveBoxes ab;
     Transition transition;
     ExpandingCircle ec;
+    Pulse ps;
 
     public void settings() {
         size(1024, 500, processing.core.PConstants.P3D);
@@ -40,6 +41,7 @@ public class MyVisual extends Visual {
         ab = new AliveBoxes(this);
         transition = new Transition(this);
         ec = new ExpandingCircle(this);
+        ps = new Pulse(this);
     }
 
     public void keyPressed() {
@@ -60,37 +62,51 @@ public class MyVisual extends Visual {
 
         textSize(32);
         fill(0, 102, 153);
-        text("Welcome", width / 2, height / 2);
+        text("Welcome", width / 2 - 60, height / 2);
 
         textSize(22);
         fill(0, 102, 153);
-        text("Press Space to Start", width / 2 - 30, height / 2 + 50);
+        text("Press Space to Start the Music", width / 2 - 160, height / 2 + 50);
+
+        textSize(22);
+        fill(0, 102, 153);
+        text("Click keys 1 through 7 to choose new animations", width / 2 - 270, height / 2 + 90);
+
         // Call this is you want to use frequency bands
         calculateFrequencyBands();
 
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();
 
-        if (millis() < 20000) {
+        /*
+         * if (millis() < 20000) { clear(); ts.render(); } else if (millis() >= 20000 &&
+         * millis() < 50000) { clear(); // ab.render(); ab.render(); } else if (millis()
+         * >= 50000 && millis() < 80000) { clear(); ec.render(); } else if (millis() >=
+         * 80000 && millis() < 100000) { clear(); ts.render(); } else if (millis() >=
+         * 100000 && millis() < 130000) { clear(); cs.render(); } else if (millis() >=
+         * 130000 && millis() < 150000) { clear(); rs.render(); } else if (millis() >=
+         * 150000) { clear(); ab.render(); }
+         */
+        if (key == '1') {
             clear();
-            ts.render();
-        } else if (millis() >= 20000 && millis() < 50000) {
+            sb.render();
+        } else if (key == '1') {
             clear();
             // ab.render();
             ab.render();
-        } else if (millis() >= 50000 && millis() < 80000) {
+        } else if (key == '2') {
             clear();
             ec.render();
-        } else if (millis() >= 80000 && millis() < 100000) {
+        } else if (key == '3') {
             clear();
             ts.render();
-        } else if (millis() >= 100000 && millis() < 130000) {
+        } else if (key == '4') {
             clear();
             cs.render();
-        } else if (millis() >= 130000 && millis() < 150000) {
+        } else if (key == '5') {
             clear();
             rs.render();
-        } else if (millis() >= 150000) {
+        } else if (key == '6') {
             clear();
             ab.render();
         }

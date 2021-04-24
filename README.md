@@ -1,27 +1,37 @@
 # Music Visualiser Project
 
-Name:
+Name: Ross McElhinney
 
-Student Number: 
-
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
+Student Number: C19430472
 
 # Description of the assignment
 
+My assignment creates visual animations that responds to music. There are a total of
+7 animations, which can be switched between by hitting any of the 1-7 keys.
+
 # Instructions
+
+To start the music, hit space.
+To toggle different animations, hit any of the 1-7 keys.
 
 # How it works
 
+The animation is controlled in the 'MyVisual' class, where individual animations
+are called from. These animations are divided into their own classes.
+'MyVisual' is ultimately the 'brain' of the project, since it controls timing and
+responds to user input.
+Each animation's properties are influenced by the inputted music itself, which outputs a
+dynamic series of movements, shape changes and colours.
+
 # What I am most proud of in the assignment
+
+I am very proud of the abstract artistic animations that result from different changes to
+the music in this project. I enjoy the fundamental discipline and logic of these animations while also
+appreciating the freedom they have to create what appears as independent responses to music.
 
 # Markdown Tutorial
 
-This is *emphasis*
+This is _emphasis_
 
 This is a bulleted list
 
@@ -36,8 +46,11 @@ This is a numbered list
 This is a [hyperlink](http://bryanduggan.org)
 
 # Headings
+
 ## Headings
+
 #### Headings
+
 ##### Headings
 
 This is code:
@@ -80,10 +93,9 @@ This is a youtube video:
 
 This is a table:
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
+| Heading 1  | Heading 2                      |
+| ---------- | ------------------------------ |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
