@@ -29,6 +29,8 @@ I am very proud of the abstract artistic animations that result from different c
 the music in this project. I enjoy the fundamental discipline and logic of these animations while also
 appreciating the freedom they have to create what appears as independent responses to music.
 
+![Example](images/independentAnimation.png)
+
 # Markdown Tutorial
 
 This is _emphasis_
