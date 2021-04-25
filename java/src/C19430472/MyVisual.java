@@ -89,7 +89,7 @@ public class MyVisual extends Visual {
          */
         if (key == '1') {
             clear();
-            sb.render();
+            rs.render();
         } else if (key == '1') {
             clear();
             // ab.render();
@@ -105,7 +105,8 @@ public class MyVisual extends Visual {
             cs.render();
         } else if (key == '5') {
             clear();
-            rs.render();
+            sb.render();
+
         } else if (key == '6') {
             clear();
             ab.render();
