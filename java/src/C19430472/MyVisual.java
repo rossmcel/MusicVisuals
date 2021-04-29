@@ -18,7 +18,7 @@ public class MyVisual extends Visual {
         size(2048, 800, processing.core.PConstants.P3D);
 
         // Use this to make fullscreen
-        fullScreen();
+        // fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
         // fullScreen(P3D, SPAN);
@@ -70,7 +70,7 @@ public class MyVisual extends Visual {
 
         textSize(22);
         fill(0, 102, 153);
-        text("Click keys 1 through 7 to choose new animations", width / 2 - 270, height / 2 + 90);
+        text("Click keys 1 through 6 to choose new animations", width / 2 - 270, height / 2 + 90);
 
         // Call this is you want to use frequency bands
         calculateFrequencyBands();

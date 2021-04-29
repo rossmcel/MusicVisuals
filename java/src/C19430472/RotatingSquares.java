@@ -25,9 +25,9 @@ public class RotatingSquares {
              */
 
             mv.stroke(100, 255, 255);
-            mv.fill(PApplet.map(i, 0, mv.getBands().length, 255, 0), 255, 255);
+            mv.fill(PApplet.map(i, 0, mv.getBands().length, 180, 20), 125, 255);
             // mv.translate(120, 20);
-            mv.rotate((float) (mv.PI * mv.getSmoothedBands()[i] / 3) / (float) 3.0);
+            mv.rotate((float) (mv.PI * mv.getSmoothedBands()[i] / 15) / (float) 3.0);
             mv.rect(26, 26, 52, 52);
         }
     }
