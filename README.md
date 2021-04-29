@@ -20,15 +20,15 @@ To toggle different animations, hit any of the 1-7 keys.
 
 ### Animation List
 
-| Key | Visual Name                             |
-| --- | --------------------------------------- |
-| 1   | Rotating Squares                        |
-| 2   | Expanding Circle Beats                  |
-| 3   | Tile Stairs                             |
-| 4   | Crazy Squares                           |
-| 5   | Rotating Line and Squares Coloured      |
-| 6   | Rotating Line and Squares Mono-Coloured |
-| 7   | Alive Boxes                             |
+| Key | Visual Name                            |
+| --- | -------------------------------------- |
+| 1   | Rotating Squares                       |
+| 2   | Expanding Circle Beats                 |
+| 3   | Tile Stairs                            |
+| 4   | Crazy Squares                          |
+| 5   | Rotating Line and Squares Coloured     |
+| 6   | Rotating Line and Squares Monocoloured |
+| 7   | Alive Boxes                            |
 
 # How it works
 
