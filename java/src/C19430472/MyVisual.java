@@ -63,7 +63,7 @@ public class MyVisual extends Visual {
 
         textSize(22);
         fill(0, 102, 153);
-        text("Click keys 1 through 6 to choose new animations", width / 2 - 270, height / 2 + 90);
+        text("Click keys 1 through 7 to choose new animations", width / 2 - 270, height / 2 + 90);
 
         // Call this is you want to use frequency bands
         calculateFrequencyBands();
@@ -99,8 +99,10 @@ public class MyVisual extends Visual {
         } else if (key == '5') {
             clear();
             sb.render();
-
         } else if (key == '6') {
+            clear();
+            rl.render();
+        } else if (key == '7') {
             clear();
             ab.render();
         }
