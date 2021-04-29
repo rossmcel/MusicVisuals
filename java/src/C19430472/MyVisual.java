@@ -1,18 +1,13 @@
 package C19430472;
 
 public class MyVisual extends Visual {
-    // WaveForm wf;
-    // AudioBandsVisual abv;
-    // AudioStar as;
     SphereBounce sb;
     CrazySquares cs;
     RotatingSquares rs;
     TileStairs ts;
     RotatingLine rl;
     AliveBoxes ab;
-    Transition transition;
     ExpandingCircle ec;
-    Pulse ps;
 
     public void settings() {
         size(2048, 800, processing.core.PConstants.P3D);
@@ -39,9 +34,7 @@ public class MyVisual extends Visual {
         ts = new TileStairs(this);
         rl = new RotatingLine(this);
         ab = new AliveBoxes(this);
-        transition = new Transition(this);
         ec = new ExpandingCircle(this);
-        ps = new Pulse(this);
     }
 
     public void keyPressed() {
@@ -78,6 +71,7 @@ public class MyVisual extends Visual {
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();
 
+        // Use for timed animations
         /*
          * if (millis() < 20000) { clear(); ts.render(); } else if (millis() >= 20000 &&
          * millis() < 50000) { clear(); // ab.render(); ab.render(); } else if (millis()
@@ -92,7 +86,6 @@ public class MyVisual extends Visual {
             rs.render();
         } else if (key == '1') {
             clear();
-            // ab.render();
             ab.render();
         } else if (key == '2') {
             clear();
