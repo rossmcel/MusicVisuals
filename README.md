@@ -4,6 +4,9 @@ Name: Ross McElhinney
 
 Student Number: C19430472
 
+Youtube Video Demonstration:
+[![YouTube](http://img.youtube.com/vi/uRYmBVHBL6I/0.jpg)](https://www.youtube.com/watch?v=uRYmBVHBL6I)
+
 # Description of the assignment
 
 My assignment creates visual animations that responds to music. There are a total of
@@ -13,6 +16,18 @@ My assignment creates visual animations that responds to music. There are a tota
 
 To start the music, hit space.
 To toggle different animations, hit any of the 1-7 keys.
+
+### Animation List
+
+| Key | Visual Name                             |
+| --- | --------------------------------------- |
+| 1   | Rotating Squares                        |
+| 2   | Expanding Circle Beats                  |
+| 3   | Tile Stairs                             |
+| 4   | Crazy Squares                           |
+| 5   | Rotating Line and Squares Coloured      |
+| 6   | Rotating Line and Squares Mono-Coloured |
+| 7   | Alive Boxes                             |
 
 # How it works
 
@@ -29,75 +44,9 @@ I am very proud of the abstract artistic animations that result from different c
 the music in this project. I enjoy the fundamental discipline and logic of these animations while also
 appreciating the freedom they have to create what appears as independent responses to music.
 
+Such an example is the 'Alive Boxes' visual, which appears almost conscious in its movemements.
 ![Example](images/independentAnimation.png)
 
-# Markdown Tutorial
-
-This is _emphasis_
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-
-## Headings
-
-#### Headings
-
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1  | Heading 2                      |
-| ---------- | ------------------------------ |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
+Another example is the 'Expanding Circle Beats' visual, which contains an individual visual element
+for each and every beat, providing a satisfying visual reflection on the flow and dynamism of the music.
+![Example](images/CircleBeats.png)
