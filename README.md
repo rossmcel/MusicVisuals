@@ -46,8 +46,8 @@ the music in this project. I enjoy the fundamental discipline and logic of these
 appreciating the freedom they have to create what appears as independent responses to music.
 
 Such an example is the 'Alive Boxes' visual, which appears almost conscious in its movemements.
-![Example](images/independentAnimation.png)
+![Example](images/independentAnimation.PNG)
 
 Another example is the 'Expanding Circle Beats' visual, which contains an individual visual element
 for each and every beat, providing a satisfying visual reflection on the flow and dynamism of the music.
-![Example](images/CircleBeats.png)
+![Example](images/CircleBeats.PNG)
